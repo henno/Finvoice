@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml-stylesheet href="/lib/Finvoice/Finvoice.xsl" type="text/xsl"?>
+<Finvoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="2.0"
+          xsi:noNamespaceSchemaLocation="Finvoice.xsd">
+    <MessageTransmissionDetails>
+        <MessageSenderDetails>
+            <FromIdentifier>FI2487000710446218</FromIdentifier>
+            <FromIntermediator>DABAFIHH</FromIntermediator>
+        </MessageSenderDetails>
+        <MessageReceiverDetails>
+            <ToIdentifier>FI3387000710510658</ToIdentifier>
+            <ToIntermediator>DABAFIHH</ToIntermediator>
+        </MessageReceiverDetails>
+        <MessageDetails>
+            <MessageIdentifier>8ea8536ab9dba079e0e0a4ac6740f522</MessageIdentifier>
+            <MessageTimeStamp>2021-04-21T14:38:16+03:00</MessageTimeStamp>
+        </MessageDetails>
+    </MessageTransmissionDetails>
+    <SellerPartyDetails>
+        <SellerPartyIdentifier>2444711-4</SellerPartyIdentifier>
+        <SellerOrganisationName>Virtue Softworks</SellerOrganisationName>
+        <SellerPostalAddressDetails>
+            <SellerStreetName>Minna Canthin katu 4 A 4. krs</SellerStreetName>
+            <SellerTownName>Kuopio</SellerTownName>
+            <SellerPostCodeIdentifier>70200</SellerPostCodeIdentifier>
+            <CountryCode>FI</CountryCode>
+        </SellerPostalAddressDetails>
+    </SellerPartyDetails>
+    <SellerOrganisationUnitNumber>003724447114000001</SellerOrganisationUnitNumber>
+    <SellerContactPersonName/>
+    <SellerCommunicationDetails>
+        <SellerPhoneNumberIdentifier/>
+        <SellerEmailaddressIdentifier/>
+    </SellerCommunicationDetails>
+    <SellerInformationDetails>
+        <SellerAccountDetails>
+            <SellerAccountID IdentificationSchemeName="IBAN">FI2487000710446218</SellerAccountID>
+            <SellerBic IdentificationSchemeName="BIC">DABAFIHH</SellerBic>
+        </SellerAccountDetails>
+    </SellerInformationDetails>
+    <BuyerPartyDetails>
+        <BuyerPartyIdentifier>2527031-4</BuyerPartyIdentifier>
+        <BuyerOrganisationName>OmaStore Osuuskunta</BuyerOrganisationName>
+        <BuyerOrganisationTaxCode>FI25270314</BuyerOrganisationTaxCode>
+        <BuyerPostalAddressDetails>
+            <BuyerStreetName>Minna Canthin katu 4 A 4. krs</BuyerStreetName>
+            <BuyerTownName>Kuopio</BuyerTownName>
+            <BuyerPostCodeIdentifier>70200</BuyerPostCodeIdentifier>
+            <CountryCode>FI</CountryCode>
+            <CountryName>Suomi</CountryName>
+        </BuyerPostalAddressDetails>
+    </BuyerPartyDetails>
+    <BuyerContactPersonName/>
+    <InvoiceDetails>
+        <InvoiceTypeCode CodeListAgencyIdentifier="SPY">INV01</InvoiceTypeCode>
+        <InvoiceTypeText>LASKU</InvoiceTypeText>
+        <OriginCode>Original</OriginCode>
+        <InvoiceNumber>275536</InvoiceNumber>
+        <InvoiceDate Format="CCYYMMDD">20130702</InvoiceDate>
+        <OrderIdentifier>100025</OrderIdentifier>
+        <BuyerReferenceIdentifier/>
+        <InvoiceTotalVatExcludedAmount AmountCurrencyIdentifier="EUR">295,00</InvoiceTotalVatExcludedAmount>
+        <InvoiceTotalVatAmount AmountCurrencyIdentifier="EUR">70,80</InvoiceTotalVatAmount>
+        <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">365,80</InvoiceTotalVatIncludedAmount>
+        <VatSpecificationDetails>
+            <VatBaseAmount AmountCurrencyIdentifier="EUR">295,00</VatBaseAmount>
+            <VatRatePercent>24</VatRatePercent>
+            <VatRateAmount AmountCurrencyIdentifier="EUR">70,80</VatRateAmount>
+        </VatSpecificationDetails>
+        <PaymentTermsDetails>
+            <InvoiceDueDate Format="CCYYMMDD">20130715</InvoiceDueDate>
+        </PaymentTermsDetails>
+    </InvoiceDetails>
+    <InvoiceRow>
+        <ArticleName>Tuntity&#xF6;</ArticleName>
+        <InvoicedQuantity QuantityUnitCode="h">5,50</InvoicedQuantity>
+        <UnitPriceAmount AmountCurrencyIdentifier="EUR" UnitPriceUnitCode="e/h">50,00</UnitPriceAmount>
+        <UnitPriceVatIncludedAmount AmountCurrencyIdentifier="EUR">62,00</UnitPriceVatIncludedAmount>
+        <RowIdentifier>1331</RowIdentifier>
+        <RowVatRatePercent>24</RowVatRatePercent>
+        <RowVatAmount AmountCurrencyIdentifier="EUR">66,00</RowVatAmount>
+        <RowVatExcludedAmount AmountCurrencyIdentifier="EUR">275,00</RowVatExcludedAmount>
+        <RowAmount AmountCurrencyIdentifier="EUR">341,00</RowAmount>
+    </InvoiceRow>
+    <InvoiceRow>
+        <ArticleName>Verkkotunnuksen rekister&#xF6;inti</ArticleName>
+        <InvoicedQuantity QuantityUnitCode="kpl">1,00</InvoicedQuantity>
+        <UnitPriceAmount AmountCurrencyIdentifier="EUR" UnitPriceUnitCode="e/kpl">20,00</UnitPriceAmount>
+        <UnitPriceVatIncludedAmount AmountCurrencyIdentifier="EUR">24,80</UnitPriceVatIncludedAmount>
+        <RowIdentifier>1332</RowIdentifier>
+        <RowVatRatePercent>24</RowVatRatePercent>
+        <RowVatAmount AmountCurrencyIdentifier="EUR">4,80</RowVatAmount>
+        <RowVatExcludedAmount AmountCurrencyIdentifier="EUR">20,00</RowVatExcludedAmount>
+        <RowAmount AmountCurrencyIdentifier="EUR">24,80</RowAmount>
+    </InvoiceRow>
+    <EpiDetails>
+        <EpiIdentificationDetails>
+            <EpiDate Format="CCYYMMDD">20130702</EpiDate>
+            <EpiReference>2755366</EpiReference>
+        </EpiIdentificationDetails>
+        <EpiPartyDetails>
+            <EpiBfiPartyDetails>
+                <EpiBfiIdentifier IdentificationSchemeName="BIC">DABAFIHH</EpiBfiIdentifier>
+            </EpiBfiPartyDetails>
+            <EpiBeneficiaryPartyDetails>
+                <EpiNameAddressDetails>Virtue Softworks</EpiNameAddressDetails>
+                <EpiAccountID IdentificationSchemeName="IBAN">FI2487000710446218</EpiAccountID>
+            </EpiBeneficiaryPartyDetails>
+        </EpiPartyDetails>
+        <EpiPaymentInstructionDetails>
+            <EpiRemittanceInfoIdentifier IdentificationSchemeName="SPY">2755366</EpiRemittanceInfoIdentifier>
+            <EpiInstructedAmount AmountCurrencyIdentifier="EUR">365,80</EpiInstructedAmount>
+            <EpiCharge ChargeOption="SHA">SHA</EpiCharge>
+            <EpiDateOptionDate Format="CCYYMMDD">20130715</EpiDateOptionDate>
+        </EpiPaymentInstructionDetails>
+    </EpiDetails>
+</Finvoice>

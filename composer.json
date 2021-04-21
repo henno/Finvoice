@@ -1,19 +1,21 @@
 {
-    "name": "virtueoy/finvoice",
+    "name": "henno/finvoice",
     "authors": [
         {
-            "name": "Tatu Ulmanen",
-            "email": "info@virtue.fi"
+            "name": "Henno Täht",
+            "email": "henno@taht.gmail.com"
         }
     ],
     "version": "1.0.0",
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.4.0",
+        "ext-simplexml": "*",
+        "ext-dom": "*"
     },
     "autoload": {
         "psr-4": {
-            "Finvoice\\": "src/"
+            "henno\\Finvoice\\": "src/"
         }
     }
 }
